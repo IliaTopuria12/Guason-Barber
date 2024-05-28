@@ -116,6 +116,209 @@ body {
 
 ::-webkit-scrollbar-thumb:hover { background-color: hsl(0, 0%, 70%); }
 
+#galeria .title-wrapper h2{
+  margin-bottom: 30px;
+}
+
+/* Fuentes */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root{
+    --principal: #282828;
+    --secundario: #c9a86b;
+    --tercer: #1f1f1f;
+    --letra1: #fff;
+    --letra2: #ebebf5;
+    --roboto: 'Roboto', sans-serif;
+    --exo2: 'Exo 2', sans-serif;
+}
+
+.videoCase{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.overlay {
+  line-height: normal;
+    position: relative;
+    width: 100%;
+    height: 103vh;
+    top: -103vh;
+    background-color: #1b1b1b92;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#infoVideo h2{
+    font-family: var(--ff-rubik);
+    font-weight: 700;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 42px;
+    padding: 8px;
+    text-shadow: 4px 4px #1f1f1f;
+}
+#infoVideo span{
+    color: #be8ffe;
+}
+.overlay button{
+    position: relative;
+    top: 250px;
+    background-color: transparent;
+    border: 0px;
+}
+
+#testimonios{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--tercer);
+    padding-top: 40px;
+    padding-bottom: 100px;
+}
+#testimoniosCase{
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center;
+    width: 90%; 
+}
+
+#testimonios h2{
+    font-family: var(--exo2);
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 36px;
+    margin-top: 40px;
+    color: var(--secundario);
+}
+
+.testimonioCaseInfo{
+    padding: 20px;
+    border-radius: 20px;
+    margin-bottom: 36px;
+    width: 300px;
+    font-family: var(--roboto);
+    background-color: var(--secundario);
+    color: white;
+    -webkit-box-shadow: 0px 0px 35px 5px rgb(201, 168, 107, 1);
+    -moz-box-shadow: 0px 0px 35px 5px rgb(201, 168, 107, 1);
+    box-shadow: 0px 0px 35px 5px rgb(137, 132, 122, 1);
+    transition: transform 0.7s ease-in-out;
+}
+.testimonioCaseInfo:hover {
+    background-color: var(--principal);
+    color: var(--secundario);
+    transform: scale(1.1);
+    transition: 0.7s all;
+}
+.testimonioCaseInfo p{
+    text-align: center;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.name-testi{
+    text-align: right !important;
+    font-size: 16px !important;
+    font-weight: 400 !important;
+}
+
+#productos{
+    padding: 24px;
+    padding-bottom: 0px;
+}
+#productosInfo{
+    padding: 25px;
+}
+#productosInfo h2{
+    font-family: var(--exo2);
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 700;
+    color: var(--secundario);
+}
+#productosInfo h4{
+    font-family: var(--roboto);
+    text-align: center;
+    font-weight: 600;
+    color: white;
+}
+
+.productosInfoText{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    text-align: center;
+}
+.productosInfoText h3{
+    text-transform: capitalize;
+    color: var(--secundario);
+    font-family: var(--exo2);
+}
+.productosInfoText p{
+    font-size: 18px;
+    color: white;
+    font-family: var(--roboto)
+}
+
+.productosInfoImg{
+    display: none;
+}
+#productos{
+    background-color: var(--principal );
+}
+/* -- RESPONSIVE -- */
+@media only screen and (max-width: 600px){
+
+}
+@media only screen and (min-width: 601px) and (max-width: 960px){
+
+}
+
+@media only screen and (min-width: 960px){
+    /* -- SECTION -- */
+    #infoVideo h2{
+        font-size: 56px;
+        padding: 0px;
+    }
+    #testimoniosCase{
+        display: flex;
+        flex-direction: row;  
+        width: 100%; 
+        justify-content: space-evenly;
+        margin-top: 36px;
+        align-items: normal;
+    }
+    .productosInfoImg{
+        display: flex;
+        justify-content: center;
+    }
+    #textoDerecha{
+        text-align: right;
+    }
+    .productosInfoText div{
+        width: 49%;
+    }
+    #textoIzquierda{
+        text-align: left;
+    }
+    .serviciosCaseInfo{
+        width: 350px;
+    }
+}
 
 /*-----------------------------------*\
   #REUSED STYLE
