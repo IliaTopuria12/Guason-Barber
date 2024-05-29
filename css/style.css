@@ -838,7 +838,7 @@ font-size: 18px; }
     border-left: 10px solid transparent;
     border-right: 10px solid transparent;
     border-bottom: 10px solid var(--eerie-black-2_85);
-    bottom: 55%;
+    bottom: 240px;
     z-index: 2;
 }
 
