@@ -691,7 +691,7 @@ video {
 
 .pricing::before {
     inset: 0;
-    background-color: #40194c66;
+    background-color: #40194c52;
     mix-blend-mode: multiply;
     z-index: -1;
   }
