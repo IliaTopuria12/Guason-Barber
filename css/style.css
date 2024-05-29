@@ -844,7 +844,7 @@ font-size: 16px; }
     border-right: 10px solid transparent;
     border-bottom: 10px solid var(--eerie-black-2_85);
     border-top: 0;
-    bottom: 240px;
+    bottom: 235px;
     left: 40%;
 }
 
@@ -854,7 +854,7 @@ font-size: 16px; }
   border-right: 10px solid transparent;
   border-bottom: 10px solid var(--eerie-black-2_85);
   border-top: 0;
-  bottom: 240px;
+  bottom: 235px;
   right: 40%;
 }
 
@@ -864,7 +864,7 @@ font-size: 16px; }
   border-right: 10px solid transparent;
   border-top: 10px solid var(--eerie-black-2_85);
   border-bottom: 0;
-  top: 240px;
+  top: 235px;
   right: 40%;
 }/*
 
