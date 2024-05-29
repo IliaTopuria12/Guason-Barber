@@ -830,6 +830,16 @@ font-size: 18px; }
   color: var(--white);
 }
   
+.pico-tag{
+    position: absolute;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid var(--eerie-black-2_85);
+    border-top: 0;
+    bottom: 240px;
+    left: 40%;
+}
+/*
 .card-title:before {
   content: "";
     position: absolute;
@@ -840,7 +850,7 @@ font-size: 18px; }
     border-bottom: 10px solid var(--eerie-black-2_85);
     bottom: 240px;
     z-index: 2;
-}
+}*/
 
 /*-----------------------------------*\
   #APPOINTMENT
