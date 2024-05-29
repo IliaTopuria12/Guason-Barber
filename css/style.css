@@ -691,7 +691,7 @@ video {
 
 .pricing::before {
     inset: 0;
-    background-color: var(--eerie-black-2_85);
+    background-color: #54276275;
     mix-blend-mode: multiply;
     z-index: -1;
   }
@@ -745,7 +745,15 @@ video {
     display: flex;
     justify-content: center;
     padding-top: 30px;
-}
+  }
+  li[data-filter="cortes"] .img-cover{
+    width: 90px;
+
+  }
+
+  li[data-filter="tintes"] .img-cover{
+    width: 90px;
+  }
   
   @keyframes popup {
   
@@ -1681,4 +1689,14 @@ a.contact-link:is(:hover, :focus) { color: var(--white); }
 
   .back-top-btn { padding: 15px; }
 
+}
+
+.social-media svg {
+  margin-right: 20px;
+}
+.social-media {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 20px;
 }
