@@ -246,6 +246,7 @@ video {
     font-size: 42px;
     padding: 8px;
     text-shadow: 4px 4px #1f1f1f;
+    display: ruby-text;
 }
 #infoVideo span{
     color: #be8ffe;
