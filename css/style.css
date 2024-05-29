@@ -77,7 +77,6 @@ li{list-style: none;}
 }
 
 .newsletter p {
-  font-size: 1.2rem;
     color: #333;
     margin-bottom: 2rem;
     display: block;
@@ -846,7 +845,7 @@ position: relative;}
     border-right: 10px solid transparent;
     border-bottom: 10px solid var(--eerie-black-2_85);
     border-top: 0;
-    bottom: 239px;
+    bottom: 259px;
     left: 40%;
 }
 
@@ -856,7 +855,7 @@ position: relative;}
   border-right: 10px solid transparent;
   border-bottom: 10px solid var(--eerie-black-2_85);
   border-top: 0;
-  bottom: 239px;
+  bottom: 259px;
   right: 40%;
 }
 
@@ -866,7 +865,7 @@ position: relative;}
   border-right: 10px solid transparent;
   border-top: 10px solid var(--eerie-black-2_85);
   border-bottom: 0;
-  top: 239px;
+  top: 259px;
   right: 40%;
 }/*
 
