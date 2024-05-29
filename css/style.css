@@ -57,6 +57,83 @@
 
 li{list-style: none;}
 
+/* Estilo para la sección de newsletter */
+.newsletter {
+  background-color: #f8f9fa;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 380px;
+  margin: 50px 20px;
+}
+
+.newsletter .highlight {
+  color: #462c6a;
+  font-weight: bold;
+}
+
+.newsletter p {
+  display: ruby-text;
+  font-size: 1.2rem;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.newsletter .input-wrapper {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.newsletter .email-field {
+  flex: 1;
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+  transition: border-color 0.3s;
+}
+
+.newsletter .email-field:focus {
+  border-color: #7f54b9;
+}
+
+.newsletter .btn {
+  background-color: #653c9d;
+  color: white;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.newsletter .btn:hover {
+  background-color: #7f54b9;
+}
+
+.newsletter .has-before {
+  position: relative;
+}
+
+.newsletter .has-before::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 5px;
+  z-index: -1;
+  transition: background-color 0.3s;
+}
+
+.newsletter .has-before:hover::before {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+
 a,
 img,
 span,
