@@ -51,19 +51,19 @@
 
         <div class="header-bottom" data-header>
             <div class="container">
-                <a href="#inicio" class="logo">
+                <a href="index.html" class="logo">
                     <img src="img/gsn-logo.png" alt="logo gsn_barbershop" width="100px">
                 </a>
                 <nav class="navbar container" data-navbar>
                     <ul class="navbar-list">
                         <li class="navbar-item">
-                            <a href="#inicio" class="navbar-link" data-nav-link>Inicio</a>
+                            <a href="index.html" class="navbar-link" data-nav-link>Inicio</a>
                         </li>
                         <li class="navbar-item">
                             <a href="sobreNosotros.html" class="navbar-link" data-nav-link>Sobre nosotros</a>
                         </li>
                         <li class="navbar-item">
-                            <a href="#servicios" class="navbar-link" data-nav-link>Servicios</a>
+                            <a href="servicios.html" class="navbar-link" data-nav-link>Servicios</a>
                         </li>
                         <li class="navbar-item">
                             <a href="#contacto" class="navbar-link" data-nav-link>Contacto</a>
@@ -101,18 +101,7 @@
                 </div>
             </section>
 
-            <div class="newsletter">
-              <p>Suscríbete a nuestro newsletter y consigue un <span class="highlight">10%</span> en tu próximo corte.</p>
-              <form action="" class="input-wrapper">
-
-                <input type="email" name="email_address" placeholder="E-mail" required class="email-field">
-    
-                <button type="submit" class="btn has-before">
-                  <span class="span">Subscríbete</span>
-                </button>
-    
-              </form>
-            </div>
+            
 
             <!-- 
             - #SERVICIOS
@@ -289,60 +278,13 @@
             <section class="section pricing has-bg-image has-before" id="pricing" aria-label="pricing" style="background-image: url(img/bg-precios.webp);">
         <div class="container">
 
-          <h2 class="h2 section-title text-center">Nuestros servicios</h2>
+          <h2 class="h2 section-title text-center">Servicios populares</h2>
 
-          <p class="section-text text-center">
+          <!--<p class="section-text text-center">
             Sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt labore dolore magna aliqua suspendisse
-          </p>
+          </p>-->
 
           <div class="pricing-tab-container">
-
-            <ul class="tab-filter">
-
-              <li>
-                <button class="filter-btn active" data-filter-btn="all">
-                  <div class="btn-icon">
-                    <i class="flaticon-beauty-salon" aria-hidden="true"></i>
-                  </div>
-
-                  <p class="btn-text">Servicios</p>
-                </button>
-              </li>
-
-              <li>
-                <button class="filter-btn" data-filter-btn="cortes">
-                  <div class="btn-icon">
-                    <i class="flaticon-relax" aria-hidden="true"></i>
-                  </div>
-
-                  <p class="btn-text">Cortes</p>
-                </button>
-              </li>
-
-              <li>
-                <button class="filter-btn" data-filter-btn="arreglos">
-                  <div class="btn-icon">
-                    <i class="flaticon-massage" aria-hidden="true"></i>
-                  </div>
-
-                  <p class="btn-text">Arreglos</p>
-                </button>
-              </li>
-
-              <li>
-                <button class="filter-btn" data-filter-btn="tintes">
-                  <div class="btn-icon">
-                    <i class="flaticon-spa" aria-hidden="true"></i>
-                  </div>
-
-                  <p class="btn-text">Tintes</p>
-                </button>
-              </li>
-
-              
-
-            </ul>
-
             <ul class="grid-list">
 
               <li data-filter="cortes">
@@ -402,145 +344,31 @@
                 </div>
               </li>
 
-              <li data-filter="cortes">
-                <div class="pricing-card">
-
-                  <figure class="card-banner img-holder" style="--width: 90; --height: 90;">
-                    <img src="img/corte-rocho.jpg" width="90" height="90" alt="Corte jubilados"
-                      class="img-cover">
-                  </figure>
-
-                  <div class="wrapper">
-                    <h3 class="h3 card-title">Corte a jubilados</h3>
-
-                    <p class="card-text">15 minutos</p>
-                  </div>
-
-                  <data class="card-price" value="6">6€</data>
-
-                </div>
-              </li>
-
-              <li data-filter="cortes">
-                <div class="pricing-card">
-
-                  <figure class="card-banner img-holder" style="--width: 90; --height: 90;">
-                    <img src="img/corte-rocho.jpg" width="90" height="90" alt="Afeitado"
-                      class="img-cover">
-                  </figure>
-
-                  <div class="wrapper">
-                    <h3 class="h3 card-title">Afeitado de cabeza</h3>
-
-                    <p class="card-text">15 minutos</p>
-                  </div>
-
-                  <data class="card-price" value="10">10€</data>
-
-                </div>
-              </li>
-
-              <li data-filter="arreglos">
-                <div class="pricing-card">
-
-                  <figure class="card-banner img-holder" style="--width: 90; --height: 90;">
-                    <img src="img/corte-rocho.jpg" width="90" height="90" alt="Cejas"
-                      class="img-cover">
-                  </figure>
-
-                  <div class="wrapper">
-                    <h3 class="h3 card-title">Cejas</h3>
-
-                    <p class="card-text">30 minutos</p>
-                  </div>
-
-                  <data class="card-price" value="2">2€</data>
-
-                </div>
-              </li>
-
-              <li data-filter="arreglos">
-                <div class="pricing-card">
-
-                  <figure class="card-banner img-holder" style="--width: 90; --height: 90;">
-                    <img src="img/corte-rocho.jpg" width="90" height="90" alt="Barba"
-                      class="img-cover">
-                  </figure>
-
-                  <div class="wrapper">
-                    <h3 class="h3 card-title">Arreglo de barba</h3>
-
-                    <p class="card-text">15 minutos</p>
-                  </div>
-
-                  <data class="card-price" value="9">9€</data>
-
-                </div>
-              </li>
-
-              <li data-filter="tintes">
-                <div class="pricing-card">
-
-                  <figure class="card-banner img-holder" style="--width: 90; --height: 90;">
-                    <img src="img/corte-rocho.jpg" width="90" height="90" alt="Colorimetria"
-                      class="img-cover">
-                  </figure>
-
-                  <div class="wrapper">
-                    <h3 class="h3 card-title">Colorimetria</h3>
-
-                    <p class="card-text">3 horas 30 minutos</p>
-                  </div>
-
-                  <data class="card-price" value="50">+50€</data>
-
-                </div>
-              </li>
-
-              <li data-filter="tintes">
-                <div class="pricing-card">
-
-                  <figure class="card-banner img-holder" style="--width: 90; --height: 90;">
-                    <img src="img/corte-rocho.jpg" width="90" height="90" alt="Permanente"
-                      class="img-cover">
-                  </figure>
-
-                  <div class="wrapper">
-                    <h3 class="h3 card-title">Permanente</h3>
-
-                    <p class="card-text">2 horas</p>
-                  </div>
-
-                  <data class="card-price" value="40">+40€</data>
-
-                </div>
-              </li>
-
-              <li data-filter="tintes">
-                <div class="pricing-card">
-
-                  <figure class="card-banner img-holder" style="--width: 90; --height: 90;">
-                    <img src="img/corte-rocho.jpg" width="90" height="90" alt="Mechas"
-                      class="img-cover">
-                  </figure>
-
-                  <div class="wrapper">
-                    <h3 class="h3 card-title">Mechas</h3>
-
-                    <p class="card-text">3 horas</p>
-                  </div>
-
-                  <data class="card-price" value="30">30€</data>
-
-                </div>
-              </li>
-
             </ul>
+            <div class="boton-servicios">
+            <a href="servicios.html" class="btn has-before">
+              <span class="span">Ver más</span>
+
+              <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+            </a>
+          </div>
 
           </div>
 
         </div>
             </section>
+            <div class="newsletter">
+              <p>Suscríbete a nuestro newsletter y consigue un <span class="highlight">10%</span> en tu próximo corte.</p>
+              <form action="" class="input-wrapper">
+
+                <input type="email" name="email_address" placeholder="E-mail" required class="email-field">
+    
+                <button type="submit" class="btn has-before">
+                  <span class="span">Subscríbete</span>
+                </button>
+    
+              </form>
+            </div>
 
             <!-- 
             - #GALERIA
@@ -669,60 +497,26 @@
           <ul class="footer-list">
 
             <li>
-              <p class="footer-list-title">Quick Links</p>
+              <p class="footer-list-title">Menú</p>
             </li>
 
             <li>
-              <a href="#" class="footer-link has-before">Our Services</a>
+              <a href="index.html" class="footer-link has-before">Inicio</a>
             </li>
 
             <li>
-              <a href="#" class="footer-link has-before">Meet Our Team</a>
+              <a href="sobreNosotros.html" class="footer-link has-before">Sobre nosotros</a>
             </li>
 
             <li>
-              <a href="#" class="footer-link has-before">Our Portfolio</a>
+              <a href="servicios.html" class="footer-link has-before">Servicios</a>
             </li>
 
             <li>
-              <a href="#" class="footer-link has-before">Need A Career?</a>
-            </li>
-
-            <li>
-              <a href="#" class="footer-link has-before">News & Blog</a>
+              <a href="contacto.html" class="footer-link has-before">Contacto</a>
             </li>
 
           </ul>
-
-          <ul class="footer-list">
-
-            <li>
-              <p class="footer-list-title">Services</p>
-            </li>
-
-            <li>
-              <a href="#" class="footer-link has-before">Hair Cutting</a>
-            </li>
-
-            <li>
-              <a href="#" class="footer-link has-before">Shaving & Design</a>
-            </li>
-
-            <li>
-              <a href="#" class="footer-link has-before">Hair Colors</a>
-            </li>
-
-            <li>
-              <a href="#" class="footer-link has-before">Beauty & Spa</a>
-            </li>
-
-            <li>
-              <a href="#" class="footer-link has-before">Cejass</a>
-            </li>
-
-          </ul>
-
-          
 
           <ul class="footer-list">
 
