@@ -691,7 +691,7 @@ video {
 
 .pricing::before {
     inset: 0;
-    background-color: #54276275;
+    background-color: #40194c66;
     mix-blend-mode: multiply;
     z-index: -1;
   }
@@ -705,7 +705,6 @@ video {
   }
   
   .pricing-tab-container {
-    background-color: var(--white);
     padding: 40px 5px;
   }
   
@@ -746,6 +745,12 @@ video {
     justify-content: center;
     padding-top: 30px;
   }
+
+  .boton-servicios .btn {
+    color: #542762;
+    background-color: #f8f9fa;
+  }
+  
   li[data-filter="cortes"] .img-cover{
     width: 90px;
 
@@ -770,7 +775,7 @@ video {
     flex-wrap: wrap;
     justify-content: space-between;
     gap: 15px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
   }
   
   .pricing-card .card-banner {
